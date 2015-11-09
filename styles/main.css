@@ -71,15 +71,19 @@ h3 a{
   display: inline-block;
 }
 
+.cell{
+  display: table-cell;
+}
+
 #wrapper{
-  margin-left: 270px;
+  /*margin-left: 270px;*/
 }
 
 #news{
-  float: right;
-  width: 100%;
+  /*width: 100%;*/
   padding-left: 20px;
   padding-right: 20px;
+  margin-left: 10px;
 }
 
 #news h2{
@@ -88,13 +92,9 @@ h3 a{
 }
 
 #latest{
-  float: left;
   width: 200px;
-  margin-left: -270px;
-  height: 100%;
   text-align: left;
   padding-left: 10px;
-  margin-right: 10px;
 }
 
 #latest ul{
@@ -119,6 +119,7 @@ h3 a{
 }
 
 #footer ul li{
+  margin-top: 10px;
   display: inline-block;
   list-style-type: none;
   border-right: 1px solid #EF6C00;;
